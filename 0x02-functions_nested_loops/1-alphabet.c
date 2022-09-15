@@ -1,13 +1,21 @@
 #include <stdio.h>
-#include "main.h"
 
-int void print_alphabet(void);
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 Success
+ */
+
 int main(void)
-{	char ch;
+
+{
+	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 		
 	{	putchar(ch);
 		}
+	printf("\n");
 
 return (0);
 }
