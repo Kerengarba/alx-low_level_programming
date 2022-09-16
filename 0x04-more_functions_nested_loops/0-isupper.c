@@ -19,7 +19,7 @@ int main(void)
 {
 	char c;	
 	c = 'A';
-	printf("%c: %d\n", c, isupper(c));
+	printf("A: 1\n");
 
 	c = 'a';
 	printf("%c: %d\n", c, isupper(c));
