@@ -23,7 +23,6 @@ int main(void)
 
 	c = 'a';
 	printf("%c: %d\n", c, isupper(c));
-		printf("\n");
 
 return (0);
 }
