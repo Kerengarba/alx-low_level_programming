@@ -17,11 +17,12 @@
 int main(void)
 
 {
-	char c;	
-	c = 'A';
-	printf("A: 1\n");
+	char c;
 
-	c = 'a';
+	for (c = 'A'; c <= 'Z'; ++c)
+	printf("%c: %d\n", c, isupper(c));
+
+	for (c = 'a'; c <= 'z'; ++c)
 	printf("%c: %d\n", c, isupper(c));
 
 return (0);
