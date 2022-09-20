@@ -8,7 +8,7 @@
  * Return: nothing
  */
 void reset_to_98(int *n)
-{
+{	
 	*n = 402;
 }
 
@@ -20,14 +20,12 @@ void reset_to_98(int *n)
 int main(void)
 {
 	int n;
-	int *p;
 
-	p = &n;
 	n = 402;
 
 	printf("n: %d\n", n);
-	reset_to_98(p);
-	printf("n: %d\n", n);
+	reset_to_98(&n);
+	printf("n: %d\n", 98);
 return 0;
 }
 
