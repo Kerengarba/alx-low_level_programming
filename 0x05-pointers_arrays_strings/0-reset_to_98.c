@@ -9,7 +9,6 @@
 int main(void)
 {
 	int n;
-	int *p;
 
 	n = 402;
 	
